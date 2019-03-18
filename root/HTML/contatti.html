@@ -5,6 +5,11 @@
     <title></title>
     <link rel="stylesheet" href="../CSS/style.css">
   </head>
+  <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+</style>
+
 
   <body>
 
@@ -13,7 +18,7 @@
            <img src="../documenti/ifs_LOG.png">
             <nav>
               <ul id="menu">
-                <li class="meunu-item"><a href="home.html">Home</a></li>
+                <li class="meunu-item"><a href="index.html">Home</a></li>
                 <li class="meunu-item"><a href="catalogo.html">Catalogo</a></li>
                 <li class="meunu-item"><a href="chi-siamo.html">Chi Siamo</a></li>
                 <li class="meunu-item"><a href="staff.html">Staff</a></li>
@@ -22,5 +27,26 @@
             </nav>
         </header>
     </div>
+    <div class="container">
+  <form method="post"  action="../script/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Il tuo Nome">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Il tuo Cognome">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Lombardia</option>
+      <option value="canada">Piemonte</option>
+      <option value="usa">Veneto</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Scrivi la tua richiesta" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
   </body>
 </html>
