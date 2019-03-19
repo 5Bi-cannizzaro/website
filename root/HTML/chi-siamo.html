@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Chi siamo</title>
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/login.css"
 
   </head>
   <body style="background-color:#dee4ea">
@@ -17,20 +18,49 @@
                 <li class="meunu-item"><a href="chi-siamo.html">Chi Siamo</a></li>
                 <li class="meunu-item"><a href="staff.html">Staff</a></li>
                 <li class="meunu-item"><a href="contatti.html">Contattaci</a></li>
+                <li class="meunu.item"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li>
               </ul>
             </nav>
         </header>
     </div>
 
+  <div id="id01" class="modal">
+
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+     </div>
+
+     <div class="container" style="background-color:#f1f1f1">
+       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+       <span class="psw">Forgot <a href="#">password?</a></span>
+     </div>
+   </form>
+ </div>
+
     	<div style=" display:flex; justify-content: center;">
     		<h1 style="font-family: verdana">CHI SIAMO</h1>
       </div>
-		<div style=" display:flex; justify-content: center;margin-right: 200px;margin-left: 200px;" >
-    		<p style="text-align:justify; font-size:20px; font-family:sans-serif;">
+		<div style=" display:flex; justify-content: center;">
+    		<p style="text-align:center; font-size:20px; font-family:sans-serif;">
     			High Tech è un' azienda nata nel 2016, dall'idea di alcuni studenti, volta all'offerta di corsi formativi e consulenza software e hardware;<br>
     			Offriamo una preparazione trasversale nel mondo dell'IT, ponendoci l'obiettivo di incrementare la formazione dei nostri clienti in questo settore.<br>
     			I nostri consulenti saranno a vostra disposizione in sede, oppure contattandoci
-    			all'indirizzo email hightechifs@gmail.com.
+    			all'indirizzo email helpdesk@hightech.com.
     			Risponderemo tempestivamente a tutte le vostre necessità.
     		</p>
 	</div>
@@ -38,16 +68,25 @@
 	<div style=" display:flex; justify-content: center;">
     		<h1 style="font-family: verdana">La storia dell'azienda</h1>
 	</div>
-	<div style=" display:flex; justify-content: center;margin-right: 200px;margin-left: 200px; ">
-    		<p style="text-align: justify; font-size:20px; font-family:sans-serif; ">
+	<div style=" display:flex; justify-content: center; ">
+    		<p style="text-align:center; font-size:20px; font-family:sans-serif; ">
     		High Tech nasce nel 2016 dall'idea imprenditoriale di ex studenti dell'ITIS S.Cannizzaro di Rho.<br>
     		Sorta a Rho, la piccola start-up si è subito imposta nel campo della consulenza ed è cresciuta <br>
     		fino a diventare una realtà radicata nel territorio, in grado di fornire il proprio servizio in tutto l'Alto Milanese.
     		</p>
 	</div>
-  <div style=" display:flex; justify-content: center;">
-        <img src="../documenti/ifs_LOG_1.png">
-    </div>
 
+	<div style=" display:flex; justify-content: center;">
+    		<img src="../documenti/ifs_LOG_1.png;" >
+		</div>
+
+  <script>
+   var modal = document.getElementById('id01');
+     window.onclick = function(event) {
+       if (event.target == modal) {
+           modal.style.display = "none";
+       }
+   }
+   </script>
   </body>
 </html>
