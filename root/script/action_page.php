@@ -39,11 +39,12 @@ if(isset($_POST['email'])) {
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message);
 }
+
+echo "<script>window.location.href='../HTML/contatti.html';</script>";
 ?>
 
 <!-- include your own success html here -->
 
-Thank you for contacting us. We will be in touch with you very soon.
 
 
 
