@@ -80,6 +80,10 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b5c9757ef4f3b83e279137bd2008c6ca4118a1bc
 
 #small-desc {
   color: #444444;
@@ -118,3 +122,4 @@ input[type=submit]:hover {
 #shop-btn:hover{
   height: 80px;
   width: 80px;
+}
