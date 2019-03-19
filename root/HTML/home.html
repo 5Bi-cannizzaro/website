@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style1.css">
     <title>HighTech Informatica</title>
   </head>
   <body>
@@ -19,9 +20,44 @@
               </ul>
             </nav>
         </header>
-        <main>
-          <p>Frase ad effetto !!!!!</p>
-        </main>
+        <div class="container">
+        	<div data-am-fadeshow="next-prev-navigation">
+
+        		<!-- Radio -->
+        		<input type="radio" name="css-fadeshow" id="slide-1" />
+        		<input type="radio" name="css-fadeshow" id="slide-2" />
+        		<input type="radio" name="css-fadeshow" id="slide-3" />
+
+        		<!-- Slides -->
+        		<div class="fs-slides">
+        			<div class="fs-slide" style="background-image: url('../documenti/slides1.jpg');"></div>
+        			<div class="fs-slide" style="background-image: url('../documenti/slides2.jpg');"></div>
+        			<div class="fs-slide" style="background-image: url('../documenti/slides3.jpeg');"></div>
+        		</div>
+
+        		<!-- Quick Navigation -->
+        		<div class="fs-quick-nav">
+        			<label class="fs-quick-btn" for="slide-1"></label>
+        			<label class="fs-quick-btn" for="slide-2"></label>
+        			<label class="fs-quick-btn" for="slide-3"></label>
+        		</div>
+
+        		<!-- Prev Navigation -->
+        		<div class="fs-prev-nav">
+        			<label class="fs-prev-btn" for="slide-1"></label>
+        			<label class="fs-prev-btn" for="slide-2"></label>
+        			<label class="fs-prev-btn" for="slide-3"></label>
+        		</div>
+
+        		<!-- Next Navigation -->
+        		<div class="fs-next-nav">
+        			<label class="fs-next-btn" for="slide-1"></label>
+        			<label class="fs-next-btn" for="slide-2"></label>
+        			<label class="fs-next-btn" for="slide-3"></label>
+        		</div>
+
+        	</div>
+        </div>
       </div>
   </body>
 </html>
