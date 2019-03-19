@@ -40,13 +40,46 @@ if(isset($_POST['email'])) {
 @mail($email_to, $email_subject, $email_message);
 }
 
-echo "<script>window.location.href='../HTML/contatti.html';</script>";
+
+
 ?>
 
-<!-- include your own success html here -->
+<script>
+setTimeout(function(){
+  window.location = "http://hightech-ifs.000webhostapp.com/HTML/home.html";
+}, 2100);
+</script>
 
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <title>HighTech Informatica</title>
+</head>
+<div id="root">
+  <header>
+       <img style="cursor : pointer;" src="../documenti/ifs_LOG_1.png" onclick="window.location.href = 'home.html';">
+        <nav>
+          <ul id="menu">
+            <li class="meunu-item"><a href="home.html">Home</a></li>
+            <li class="meunu-item"><a href="catalogo.html">Catalogo</a></li>
+            <li class="meunu-item"><a href="chi-siamo.html">Chi Siamo</a></li>
+            <li class="meunu-item"><a href="staff.html">Staff</a></li>
+            <li class="meunu-item"><a href="contatti.html">Contattaci</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
 
+    </main>
+  </div>
+<center>
+  <rigth>
 
+  <img src="../documenti/download.jpg" alt="Paris" width="300" height="300">
+</rigth>
+
+  <p class = "ff">Ti ringraziamo per aver scelto HighTech, verrai contattato il prima possibile. </p>
+</center>
 
 
 </body>

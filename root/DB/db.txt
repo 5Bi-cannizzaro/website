@@ -1,1 +1,4 @@
 
+database: databases.000webhost.com
+user: id9012725_root
+pass: alfagiulia
