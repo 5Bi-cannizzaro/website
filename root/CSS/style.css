@@ -2,18 +2,18 @@ header img {
     height: 70px;
     margin: 5px;
 }
-body {
+body{
     height: 125vh;
     background-size: cover;
     font-family: sans-serif;
     margin-top: 80px;
-    padding: 30px;
+    padding: 0;
     background-color: #e1e9f2;
 
 }
 
 header {
-    background-color: #e1e9f2;
+    background-color: #d2e0ef;
     position: fixed;
     top: 0;
     left: 0;
@@ -49,6 +49,10 @@ header li a:hover {
     transition: 0.2s;
     background-color: #d3dce5;
 
+}
+
+#container {
+  height: 100%;
 }
 
 input[type=text], input[type=password], select, textarea {
@@ -97,7 +101,7 @@ input[type=submit]:hover {
  outline-offset: -10px;
 
  background-color: #b1c2d6;
- height: 30%;
+ height: 35%;
  width: 98%;
  margin: 10px auto;
 
@@ -123,4 +127,62 @@ input[type=submit]:hover {
 #shop-btn:hover{
   cursor: pointer;
   filter: brightness(50%);
+}
+.footer{
+  bottom: 0px;
+  position: fixed;
+  height: 155px;
+  width: 100% ;
+  margin : 0;
+  padding : 0;
+  background-color: #d2e0ef;
+}
+table{
+  display: table;
+  border-collapse: separate;
+  -webkit-border-horizontal-spacing: 2px;
+  -webkit-border-vertical-spacing: 2px;
+  border-top-color: gray;
+  border-right-color: gray;
+  border-bottom-color: gray;
+  border-left-color: gray;
+}
+div.footer table{
+  width: 84%;
+  height: 100%;
+  margin-left: 8%;
+}
+tbody{
+  display: table-row-group;
+  vertical-align: middle;
+  border-top-color: inherit;
+  border-right-color: inherit;
+  border-bottom-color: inherit;
+  border-left-color: inherit;
+}
+tr{
+  display: table-row;
+  vertical-align: inherit;
+  border-top-color: inherit;
+  border-right-color: inherit;
+  border-bottom-color: inherit;
+  border-left-color: inherit;
+}
+div.footer table td {
+  vertical-align: top;
+  width: 25%;
+  padding: 10px;
+}
+div.footer a {
+  text-decoration: none;
+  color : #444444;
+  font-weight: bold;
+}
+div.footer a:hover{
+  color : blue;
+  font-weight: bold;
+}
+div.footer b {
+  text-decoration: underline;
+  font-weight: bolder;
 }

@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../CSS/login.css">
   </head>
   <body style="background-color:#dee4ea">
-    <div id="root">
       <header>
            <img style="cursor : pointer;" src="../documenti/ifs_LOG_1.png" onclick="window.location.href = 'home.html';">
             <nav>
@@ -17,18 +16,16 @@
                 <li class="meunu-item"><a href="chi-siamo.html">Chi Siamo</a></li>
                 <li class="meunu-item"><a href="staff.html">Staff</a></li>
                 <li class="meunu-item"><a href="contatti.html">Contattaci</a></li>
-                <li class="meunu-item"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li>
+                <li class="meunu-item"><a onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer ; width:auto;">Login</a></li>
               </ul>
             </nav>
         </header>
-    </div>
-
   <div id="id01" class="modal">
 
   <form class="modal-content animate" action="/action_page.php">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+      <img src="../documenti/ifs_LOG_1.png" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
@@ -87,5 +84,34 @@
        }
    }
    </script>
+   <div class="footer">
+     <table>
+     <tbody><tr>
+         <td>
+             <b class="title">Collegamenti</b><br>
+               <a class="invert" href="http://hightech-ifs.000webhostapp/html/home.html">Homepage</a><br>
+               <a class="invert" href="http://hightech-ifs.000webhostapp/html/chi-siamo.html">Chi siamo</a><br>
+               <a class="invert" href="http://hightech-ifs.000webhostapp/html/contatti.html">Contatti</a><br>
+               <a class="invert" href="http://hightech-ifs.000webhostapp/html/staff.html">Staff</a><br>
+               <a class="invert" href="http://hightech-ifs.000webhostapp/html/catalogo.html">Catalogo</a><br>
+               <a class="invert" href="http://hightech-ifs.000webhostapp/html/shop.html">Shop</a><br>
+           </td>
+           <td>
+             <b class="title">Recapiti</b><br>
+               <a class="invert" href="http://hightech-ifs.000webhostapp/html/contatti.html">Contatti</a><br>
+               <span class="invert">Tel.: 00000000000</span><br>
+               <span class="invert">Mail: hightechifs@gmail.com</span><br>
+               <span class="invert">Ind.: Via R. Sanzio 2, Rho (MI)</span><br>
+           </td>
+           <td>
+             <b class="title">La mia utenza</b><br>
+               <span class="invert" onclick="login()" id="downlog">TODO</span><br>
+               <!-- <a class="invert" href="http://asicannizzaro.altervista.org/registrazione.php">Registrati ad ASI Cannizzaro</a><br><br>
+               <b class="title">Carrello</b><br>
+               <a class="invert" href="http://asicannizzaro.altervista.org/carrello.php">I miei ordini</a><br><br> -->
+           </td>
+       </tr>
+   </tbody></table>
+   </div>
   </body>
 </html>
