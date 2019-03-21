@@ -5,6 +5,25 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/style1.css">
     <title>HighTech Informatica</title>
+
+    <style>
+      @keyframes animazione {
+        from{
+          opacity:0;
+        }
+        to {
+          opacity:1;
+          }
+
+      }
+
+      #small-desc {
+        font-size:60px;
+        animation: animazione;
+        animation-duration:5s;
+      }
+    </style>
+
   </head>
   <body style="padding:0;">
       <header>
@@ -59,37 +78,39 @@
 
         	</div>
           <div id="text-home">
-            <p id="small-desc">Piccola descrizione di chi siamo</p>
+            <p id="small-desc">Non vendiamo corsi, ma formazione per il futuro.</p>
           </div>
-        </div>
-        <div class="footer">
-          <table>
-        	<tbody><tr>
-            	<td>
-                	<b class="title">Collegamenti</b><br>
-                    <a class="invert" href="home.html">Homepage</a><br>
-                    <a class="invert" href="chi-siamo.html">Chi siamo</a><br>
-                    <a class="invert" href="contatti.html">Contatti</a><br>
-                    <a class="invert" href="staff.html">Staff</a><br>
-                    <a class="invert" href="catalogo.html">Catalogo</a><br>
-                    <a class="invert" href="shop.html">Shop</a><br>
-                </td>
-                <td>
-                	<b class="title">Recapiti</b><br>
-                    <a class="invert" href="contatti.html">Contatti</a><br>
-                    <span class="invert">Tel.: 00000000000</span><br>
-                    <span class="invert">Mail: hightechifs@gmail.com</span><br>
-                    <span class="invert">Ind.: Via R. Sanzio 2, Rho (MI)</span><br>
-                </td>
-                <td>
-                	<b class="title">La mia utenza</b><br>
-                    <span class="invert" onclick="login()" id="downlog">TODO</span><br>
-                    <!-- <a class="invert" href="http://asicannizzaro.altervista.org/registrazione.php">Registrati ad ASI Cannizzaro</a><br><br>
-                    <b class="title">Carrello</b><br>
-                    <a class="invert" href="http://asicannizzaro.altervista.org/carrello.php">I miei ordini</a><br><br> -->
-                </td>
-            </tr>
-        </tbody></table>
+
+          <div class="footer">
+            <table>
+          	<tbody><tr>
+              	<td>
+                  	<b class="title">Collegamenti</b><br>
+                      <a class="invert" href="home.html">Homepage</a><br>
+                      <a class="invert" href="chi-siamo.html">Chi siamo</a><br>
+                      <a class="invert" href="contatti.html">Contatti</a><br>
+                      <a class="invert" href="staff.html">Staff</a><br>
+                      <a class="invert" href="catalogo.html">Catalogo</a><br>
+                      <a class="invert" href="shop.html">Shop</a><br>
+                  </td>
+                  <td>
+                  	<b class="title">Recapiti</b><br>
+                      <a class="invert" href="contatti.html">Contatti</a><br>
+                      <span class="invert">Tel.: 00000000000</span><br>
+                      <span class="invert">Mail: hightechifs@gmail.com</span><br>
+                      <span class="invert">Ind.: Via R. Sanzio 2, Rho (MI)</span><br>
+                  </td>
+                  <td>
+                  	<b class="title">La mia utenza</b><br>
+                      <span class="invert" onclick="login()" id="downlog">TODO</span><br>
+                      <!-- <a class="invert" href="http://asicannizzaro.altervista.org/registrazione.php">Registrati ad ASI Cannizzaro</a><br><br>
+                      <b class="title">Carrello</b><br>
+                      <a class="invert" href="http://asicannizzaro.altervista.org/carrello.php">I miei ordini</a><br><br> -->
+                  </td>
+              </tr>
+          </tbody></table>
+          </div>
+
         </div>
   </body>
 </html>
