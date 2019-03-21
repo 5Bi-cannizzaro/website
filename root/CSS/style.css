@@ -13,7 +13,7 @@ body{
 
 header {
     background-color: #d2e0ef;
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -88,10 +88,10 @@ input[type=submit]:hover {
   color: #444444;
   margin : 0px;
  font-size: 20px;
- line-height: 190px;
  font-family: Helvetica, sans-serif;
  font-weight: bold;
  text-align: center;
+ padding-top: 60px;
 }
 
 #text-home {
