@@ -138,6 +138,7 @@ input[type=submit]:hover {
   padding : 0;
   background-color: #d2e0ef;
   box-shadow: 0 0 25px 0 black;
+  transition: bottom 0.2s ease-in-out;
 }
 table{
   display: table;
