@@ -1,0 +1,19 @@
+Account Google
+e-mail:   hightechifs@gmail.com
+password: alfagiulia
+
+Account AlterVista
+username:   ifshightech
+password:   Alfagiulia1
+
+Account 000webhost
+e-mail:   hightechifs@gmail.com
+password: Alfagiulia1
+
+
+000Webhost
+Nome: HighTechIFS
+Password: Alternanza2019
+
+
+
