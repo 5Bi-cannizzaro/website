@@ -13,7 +13,7 @@ body{
 
 header {
     background-color: #d2e0ef;
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -88,10 +88,10 @@ input[type=submit]:hover {
   color: #444444;
   margin : 0px;
  font-size: 20px;
- line-height: 190px;
  font-family: Helvetica, sans-serif;
  font-weight: bold;
  text-align: center;
+ padding-top: 60px;
 }
 
 #text-home {
@@ -186,4 +186,21 @@ div.footer a:hover{
 div.footer b {
   text-decoration: underline;
   font-weight: bolder;
+}
+#login-btn{
+  position: absolute;
+  right: 40px;
+  color: #444444;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s;
+}
+#login-btn:hover{
+  padding: 10px;
+  border: 1px solid  #d3dce5;
+  border-radius: 20px;
+  color: black;
+  text-decoration: none;
+  transition: 0.2s;
+  background-color: #d3dce5;
 }
