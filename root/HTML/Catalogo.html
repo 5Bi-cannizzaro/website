@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Catalogo</title>
+    <link rel="stylesheet" href="../CSS/stylecatalogo.css">
+  </head>
+  <body>
+      <header>
+           <img style="cursor: pointer;" src="../documenti/ifs_LOG_1.png" onclick="window.location.href = 'home.html';">
+            <nav>
+              <ul id="menu">
+                <li class="meunu-item"><a href="home.html">Home</a></li>
+                <li class="meunu-item"><a href="catalogo.html">Catalogo</a></li>
+                <li class="meunu-item"><a href="chi-siamo.html">Chi Siamo</a></li>
+                <li class="meunu-item"><a href="staff.html">Staff</a></li>
+                <li class="meunu-item"><a href="contatti.html">Contattaci</a></li>
+              </ul>
+            </nav>
+	  <img style="cursor : pointer;" src="../documenti/shop-btn.png" onclick="window.location.href = 'cart.html';">
+        </header>
+		
+		
+		<div class="filter-panel">
+			<div class="filter-content">
+				<span><b>Seleziona la categoria</b></span><br>
+				<input type="checkbox" value="Periferiche Output">Periferiche Output<br>
+				<input type="checkbox" value="Periferiche Input">Periferiche Input<br>
+				<input type="checkbox" value="Computer">Computer<br>
+				<input type="checkbox" value="Compnenti PC">Componenti PC<br>
+				<input type="checkbox" value="Corsi">Corsi<br>
+			</div>
+		</div>
+		
+		<div class="products">
+			<table id="table-products">
+				<tbody>
+					<tr>
+						<td><img src="../documenti/shop-btn.png"></td>
+					</tr>
+					<tr>
+						<td><img src="../documenti/shop-btn.png"></td>
+					</tr>
+					<tr>
+						<td><img src="../documenti/shop-btn.png"><br>
+							<span style="position: relative; top: 5px;">Carrello €49.99</span>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="../documenti/shop-btn.png"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+        <div class="footer">
+          <table>
+        	<tbody><tr>
+            	<td>
+                	<b class="title">Collegamenti</b><br>
+                    <a class="invert" href="http://hightech-ifs.000webhostapp/html/home.html">Homepage</a><br>
+                    <a class="invert" href="http://hightech-ifs.000webhostapp/html/chi-siamo.html">Chi siamo</a><br>
+                    <a class="invert" href="http://hightech-ifs.000webhostapp/html/contatti.html">Contatti</a><br>
+                    <a class="invert" href="http://hightech-ifs.000webhostapp/html/staff.html">Staff</a><br>
+                    <a class="invert" href="http://hightech-ifs.000webhostapp/html/catalogo.html">Catalogo</a><br>
+                    <a class="invert" href="http://hightech-ifs.000webhostapp/html/shop.html">Shop</a><br>
+                </td>
+                <td>
+                	<b class="title">Recapiti</b><br>
+                    <a class="invert" href="http://hightech-ifs.000webhostapp/html/contatti.html">Contatti</a><br>
+                    <span class="invert">Tel.: 00000000000</span><br>
+                    <span class="invert">Mail: hightechifs@gmail.com</span><br>
+                    <span class="invert">Ind.: Via R. Sanzio 2, Rho (MI)</span><br>
+                </td>
+                <td>
+                	<b class="title">La mia utenza</b><br>
+                    <span class="invert" onclick="login()" id="downlog">TODO</span><br>
+                    <!-- <a class="invert" href="http://asicannizzaro.altervista.org/registrazione.php">Registrati ad ASI Cannizzaro</a><br><br>
+                    <b class="title">Carrello</b><br>
+                    <a class="invert" href="http://asicannizzaro.altervista.org/carrello.php">I miei ordini</a><br><br> -->
+                </td>
+            </tr>
+        </tbody></table>
+      </div>
+  </body>
+</html>
